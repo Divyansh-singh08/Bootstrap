@@ -1,14 +1,52 @@
 body{
-    background-color: black;
-    color:white;
+    background-color: rgb(58, 57, 57);
+    color:rgb(8, 8, 8);
 }
 
 .container {
-    border:2px solid blue;
+    border:0px solid blue;
 }
 .row {
-    border:2px solid rgb(245, 30, 30);
+    border:0px solid rgb(245, 30, 30);
 }
-.col {
-    border:2px solid rgba(51, 255, 0, 0.951);
+.col,.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8.col-9,.col-10,.col-11,.col-12 {
+    border:0px solid rgba(51, 255, 0, 0.951);
+}
+
+#header{
+    background-color: goldenrod;
+    padding:10px 0px 10px 10px;
+}
+
+#menu{
+    background-color: rgb(84, 225, 65);
+    padding:3px 0px; 
+}
+#menu ul{
+    list-style: none;
+    margin:0px;
+    
+    
+}
+
+#menu ul li {
+    display: inline-block;
+    text-decoration: none;
+}
+#menu ul li a{
+
+    text-decoration: none;
+}
+
+#content{
+    color:black;
+    background-color: aliceblue;
+}
+
+#sidebar{
+    background-color:bisque;
+}
+
+#footer{
+    background-color: hotpink;
 }
