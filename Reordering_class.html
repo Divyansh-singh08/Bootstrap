@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Reordering classes</title>
+    <link rel="stylesheet" href="Reordering_class.css">
+</head>
+<body>
+    <!-- this is the fixed order till middle screen  -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 orange order-2">
+                Col 1
+            </div>
+            <div class="col-md-3 pink order-3">
+                Col 2
+            </div>
+            <div class="col-md-2 green order-0">
+                Col 3
+            </div>
+            <div class="col-md-2 blue order-1">
+                Col 4
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col orange order-2">
+                Col 1
+            </div>
+            <div class="col pink order-3">
+                Col 2
+            </div>
+            <div class="col green order-0">
+                Col 3
+            </div>
+            <div class="col blue order-1">
+                Col 4
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col orange order-md-2 order-sx-3">
+                Col 1
+            </div>
+            <div class="col pink order-md-3 order-sx-1">
+                Col 2
+            </div>
+            <div class="col green order-md-0 order-sx-2">
+                Col 3
+            </div>
+            <div class="col blue order-md-1 order-sx-0">
+                Col 4
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col orange order-md-last">
+                Col 1
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col orange order-md-last">
+                Col 1
+            </div>
+            <div class="col pink">
+                Col 2
+            </div>
+            <div class="col green order-md-first">
+                Col 3
+            </div>
+            <div class="col blue">
+                Col 4
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 order-sm-1 pink">
+                <h2>Heading of the Website</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus veniam, eligendi nulla saepe sunt reiciendis sint accusamus fuga autem inventore impedit, necessitatibus fugiat? Sapiente, sequi illo, obcaecati atque voluptatem beatae ab quia, harum iste accusamus alias culpa quod commodi voluptas cumque a! Voluptatibus, eum omnis. Atque sint deserunt optio veniam dolores aliquid voluptate, dignissimos hic. Cum, error culpa unde minus in fugiat dignissimos officiis temporibus recusandae quod tempore aliquid libero quia, enim vel, nemo optio maxime sint aperiam veniam harum? Praesentium corrupti modi excepturi deleniti quidem quisquam officia harum distinctio eos ratione porro eius eveniet reiciendis nostrum tempora, adipisci ipsam unde dolores blanditiis, nemo ex veniam, asperiores illo officiis. Vel, fugit magnam. Culpa sed saepe alias ut ullam. Inventore minima asperiores officiis eaque excepturi.</p>
+            </div>
+            <div class="col-md-4 order-sm-0 green">
+                <ul>
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                    <li>Product</li>
+                    <li>Gallary</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
