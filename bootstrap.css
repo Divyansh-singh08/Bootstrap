@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+    color:white;
+}
+
+.container {
+    border:2px solid blue;
+}
+.row {
+    border:2px solid rgb(245, 30, 30);
+}
+.col {
+    border:2px solid rgba(51, 255, 0, 0.951);
+}
